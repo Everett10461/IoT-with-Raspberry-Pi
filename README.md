@@ -2,7 +2,7 @@
 A first effort on an IoT project.
 
 This is a learning project.  I am a great problem solver, but I am in need of having my skillset refreshed.  I decided to 
-do some initial work on an Internet of Things (IoT) project  I choose the Raspberry Pi as the "Thing."  The exact nature 
+do some initial work on an Internet of Things (IoT) project.  I choose the Raspberry Pi as the "Thing."  The exact nature 
 of the project is not defined, as learning will take me in unknown directions -- perfect for using github with new branches for new directions.
 
 My overall concept of the IoT is that a smart phone, iPad, computer, or other device is used to communicate over the internet
