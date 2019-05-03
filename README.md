@@ -11,3 +11,6 @@ to monitor and control an embedded device -- the Thing.
 After a bit of research, I found that the Raspberry Pi is often being used as the embedded device.  So I bought a Raspberry Pi.  It was straight forward to set it up on my local network with WiFi.
 
 My next task is to communicate with the RPi over tthe local internet.  I have a linux (Ubuntu 18.04) computer set up for development work, and I will use that system to communicate both ways with the RPi.  My first attemps will be to make a TCP-IP connection and transfer a simple file between the two devices.
+
+I am now learning *git* on my local computer.
+
