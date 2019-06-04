@@ -10,20 +10,10 @@ to monitor and control an embedded device -- the Thing.
 
 After a bit of research, I found that the Raspberry Pi is often being used as the embedded device.  So I bought a Raspberry Pi.  It was straight forward to set it up on my local network with WiFi.
 
-The first task is to communicate with the RPi over the local internet.  I have a linux (Ubuntu 18.04) computer set up for development work, and I will use that system to communicate both ways with the RPi.  The first attempt is to make a TCP-IP connection and transfer a simple file between the two devices.
+The first task is to communicate with the RPi over the local internet.  I have a linux (Ubuntu 18.04) computer set up for development work, and I will use that system to communicate both ways with the RPi.
 
-I use Eclipse for an IDE with the Egit plugin.  TCP-IP will be done using network sockets.  There will be three Eclipse projects:  
-1. TCP-IP server on the Linux desktop system.
-2. TCP-IP client on the Linux desktop system.
-3. TCP-IP server on the Raspberry Pi system Linux system.
+I have decided to take on the project of a completely automated kitchen.
 
-Item 3, TCP-IP server on the Raspberry Pi system, is a separate build using the TCP-IP server for Linux desktop.
-The separate build is required because the two systems have different processors (desktop is x86 and RPi is ARM).
-Building the binary executable the ARM processor will be done on the desktop system with a cross-compiler.
+The inspiration for this project comes from sci-fi where a person says they want a particular meal, and it appears in the meal delivery box.  I suppose the process is some sort of molecular assembler.  So, in our world, we need a user interface (browser based with realtime updates), a recipe/menu system (database), an inventory system (database), a storage and retrival system (item recognition--computer vision), a reorder system (supply chain management), material handling system (robotics with computer vision), individual process stations, a scheduling and routing system, quality management system, auto cleaning systems, preventive maintenance system, and safety systems with built-in failsafes. Artificial Intelligence (AI) should learn the users preferences and be able to make suggestions for meals. Also, data should be collected from all kitchens so that overall supply requirments can be understod and used to reduce waste in the supply chain from producer to consumer.
 
-All the source code will be typed in from scratch to make the learning experience closer to actual program development.
-Egit will be used to track the changes.
-I am using [this tutorial](https://www.binarytides.com/socket-programming-c-linux-tutorial/) for my source.
-
-
-
+I am choosing to first work on setting up a browser that can control and monitor, in near realtime, a Rasberry Pi's inputs and outputs (I/O).
